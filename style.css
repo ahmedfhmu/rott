@@ -17,15 +17,10 @@ body
   width: 100%;
   height: 100%;
    z-index: 99999;
-
+  
   
   }
   
- 
-
-
-  
-
   .sk-cube-grid {
 
 
@@ -38,15 +33,14 @@ body
  top: 50%;
  left: 50%;
  
+
+
+
+
+
+
+  
   }
-
-
- 
-
-
-
-
-
   
   .sk-cube-grid .sk-cube {
     width: 33%;
@@ -123,7 +117,7 @@ transition:all 1.5s ease;
    transform: scale(1.1);
 }
 
-
+***************
 body
 {
   margin: 0;
@@ -131,29 +125,17 @@ body
   background: #dedede;
 }
    
+
 .one{
-
-
-
-  display: flex;
-  position: relative;
-  top: 100%;
-  left: 30%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,1300%);
   margin: 0;
   padding: 0;
-
-
-
-
-
-
-
-
-
-
+  display: flex;
 }
-
-
 
 .one li {
   list-style: none;
@@ -221,13 +203,9 @@ background: linear-gradient(0deg,rgb(78, 76, 76),rgb(121, 4, 4));
     color: #e4405f;
 }
 
-
-
-
 #footer
 {
   color: antiquewhite;
   background-color:rgb(44, 40, 44) ;
-  padding: 30px;
+  padding: 10px;
 }
-
