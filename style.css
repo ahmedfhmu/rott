@@ -128,9 +128,10 @@ body
 
 .one{
   
-  position: relative;
+ position: relative;
   top: 50%;
-  left: 30%;
+  left: 50%;
+  transform: translate(-10%,100%);
   margin: 0;
   padding: 0;
   display: flex;
